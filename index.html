@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Парктическая задача</title>
+<style>
+	fieldset {
+		margin: 30px 50px;
+			max-width: 500px;
+		}
+		div {
+			margin-top: 15px;
+		}
+		input {
+			margin-left: 20px;
+		}
+
+	
+		
+		.btn1 {
+			margin-left: 50px;
+
+		}
+	
+</style>
+		
+
+</head>
+<body>
+	<form action="">
+	<fieldset> <legend>Общая информация</legend>
+		<div><label for="lastname">Фамилия</label>
+<input type="text" name="lastname" placeholder="Иванов"></div>
+		<div><label class="first__name" for="firstname">Имя</label>
+			<input type="text" name="firstname" placeholder="Иван">	
+		</div>
+		<div><label for="secondname">Отчество</label>
+			<input type="text" name="secondname" placeholder="Иванович">	
+		</div>
+		<div><label for="mail">email</label>
+			<input type="text" name="mail" placeholder="mail@mail.ru">	
+		</div>
+	</fieldset>
+	<fieldset> <legend>Пол</legend>
+		<input class="gend" type="radio" name="gender" placeholder="М">
+		<label for="gender">М</label>
+		<input class="gend" type="radio" name="gender" placeholder="Ж">
+		<label for="gender">Ж</label>
+	</fieldset>
+	<fieldset> <legend>Хобби</legend>
+		<div>
+			<input type="checkbox" id="hobby1" name="hobby" value="paint">
+			<label for="hobby1">Рисование</label>
+			<input type="checkbox" id="hobby2" name="hobby" value="reading">
+			<label for="hobby1">Чтение</label>
+			<input type="checkbox" id="hobby3" name="hobby" value="knitting">
+			<label for="hobby1">Вязание</label>
+			<input type="checkbox" id="hobby4" name="hobby" value="cooking">
+			<label for="hobby1">Кулинария</label>
+		</div>
+	</fieldset>
+	<button class="btn1" type="submit">Отправить</button>
+	<button class="btn" type="reset">Очистить</button>
+
+</form>
+</body>
+</html>
